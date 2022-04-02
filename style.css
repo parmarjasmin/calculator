@@ -1,0 +1,177 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.output{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: black;
+}
+.button{
+    height: 110px;
+    width: 110px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.button button{
+    margin: 2px;
+    height: 50px;
+    width: 100px;
+}
+
+.buttonSum{
+    height: 50px;
+    width: 50px;
+
+}
+
+
+#input{
+    height: 50px;
+    width: 150px;
+} */
+
+
+
+.container{
+    
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    color: white;
+
+    border: 2px solid black ;
+    border-radius: 4%;
+    box-shadow: 0px 0px 2px 2px black inset;
+    box-shadow: 0px 0px 5px 5px black ;
+}
+.text{
+
+    /* padding-left: 5px; */
+    
+}
+.input{
+   height: 50px;
+   width: auto;
+   margin-top: 5px;
+   /* margin-left: 5px; */
+   /* margin-right: 5px; */
+
+   border: 2px solid rgb(126, 126, 126);
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px white inset;
+   background-color: black;
+    color: white;
+    font-size: large;
+    /* font-variant-position: normal; */
+    font-weight: 200;
+    padding:5px;
+}
+.output{
+    height: 50px;
+    width: auto;
+    border: 2px solid rgb(126, 126, 126);
+
+    /* border: 2px solid white; */
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px white inset;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-variant-position: normal;
+    font-weight: 200;
+   padding:5px;
+
+}
+
+.number{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-top: 5px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto auto auto; */
+
+}
+.number button{
+    
+    display: grid;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px black inset;
+    align-items: center;
+}
+
+.arithmetic {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* height: 50px; */
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 2px ;
+    
+}
+
+.arithmetic button{
+    display: grid;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px black inset;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 2px 5px 5px black;
+    text-shadow: 2px 2px 10px white;
+    color: white;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .sum{
+    display: grid;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px black inset;
+    align-items: center;
+} */
